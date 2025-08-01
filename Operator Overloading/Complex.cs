@@ -58,6 +58,51 @@ namespace SessionOOP04.Operator_Overloading
             return new Complex();
         }
 
+        //comparsion Operation Binary : > < >= <= != ==
+        //Must Be Boolean 
+
+        public static bool operator >(Complex left,Complex right )
+        {
+            if (left.Real == right.Real)
+                return left.Imag > right.Imag;
+
+            return left.Real > right.Real;
+        }
+
+        public static bool operator <(Complex left, Complex right)
+        {
+            if (left.Real == right.Real)
+                return left.Imag < right.Imag;
+
+            return left.Real < right.Real;
+        }
+
+        public static bool operator >=(Complex left, Complex right)
+        {
+            if (left.Real == right.Real)
+                return left.Imag >= right.Imag;
+
+            return left.Real >= right.Real;
+        }
+
+        public static bool operator <=(Complex left, Complex right)
+        {
+            if (left.Real == right.Real)
+                return left.Imag <= right.Imag;
+
+            return left.Real <= right.Real;
+        }
+
+        public static bool operator ==(Complex left,Complex right)
+        {
+            return left.Real == right.Real && left.Imag == right.Imag;
+        }
+
+        public static bool operator !=(Complex left, Complex right)
+        {
+            return left.Real != right.Real || left.Imag != right.Imag;
+        }
+
         public override string ToString()
         {
             return $"{Real} + {Imag} i";

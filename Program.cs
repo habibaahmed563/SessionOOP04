@@ -37,6 +37,7 @@ namespace SessionOOP04
             //.Net 3.1 Core  
             #endregion
 
+            #region Operator Overloading 
             //Operator Overloading 
 
             //+ - * / % > < >= <= != == || && ! | & ^ >> 
@@ -51,8 +52,8 @@ namespace SessionOOP04
             // 4+3 i 
             // 4+3 ت
 
-            //Complex C01 = new Complex() { Real = 3, Imag = 4 };
-            //Complex C02 = new Complex() { Real = 4, Imag = 2 };
+            Complex C01 = new Complex() { Real = 3, Imag = 4 };
+            Complex C02 = new Complex() { Real = 4, Imag = 2 };
 
             //Console.WriteLine(C01);
             //Console.WriteLine(C02);
@@ -73,6 +74,19 @@ namespace SessionOOP04
             //Complex C03 = C01++;
 
             //Console.WriteLine(C03);
+
+            if (C01 > C02)
+            {
+                Console.WriteLine("C01 is greater than C02 ");
+            }
+            else
+            {
+                Console.WriteLine("C01 is  not greater than C02 ");
+            } 
+            #endregion
+
+
+
 
         }
     }
