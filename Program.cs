@@ -31,6 +31,11 @@ namespace SessionOOP04
             //Rectangle.Print(); 
             #endregion
 
+            #region Interface Vs Abstract Class
+            // Interface Vs Abstract Class
+            //.Net 3.1 Core  
+            #endregion
+
 
         }
     }
