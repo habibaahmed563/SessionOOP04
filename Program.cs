@@ -51,16 +51,28 @@ namespace SessionOOP04
             // 4+3 i 
             // 4+3 ت
 
-            Complex C01 = new Complex() { Real = 3, Imag = 4 };
-            Complex C02 = new Complex() { Real = 4, Imag = 2 };
+            //Complex C01 = new Complex() { Real = 3, Imag = 4 };
+            //Complex C02 = new Complex() { Real = 4, Imag = 2 };
 
-            Console.WriteLine(C01);
-            Console.WriteLine(C02);
+            //Console.WriteLine(C01);
+            //Console.WriteLine(C02);
 
-            Complex C03 = C01 - null;
+            //Complex C03 = C01 - null;
 
-            Console.WriteLine(C03);
+            //Console.WriteLine(C03);
 
+            // ++ --
+            //Unary Operation 
+
+            //int X = 12;
+
+            //X++;
+            //Console.WriteLine(X);
+
+            //Console.WriteLine(C01);
+            //Complex C03 = C01++;
+
+            //Console.WriteLine(C03);
 
         }
     }

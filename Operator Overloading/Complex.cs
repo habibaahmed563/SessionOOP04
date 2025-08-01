@@ -32,6 +32,32 @@ namespace SessionOOP04.Operator_Overloading
                 Imag = (left?.Imag ??0) - (Right?.Imag??0),
             };
         }
+
+        //Operator Overloading 
+        //++ -- 
+        //Function : Public - static 
+
+        //Unary Operator -- ++ 
+        public static Complex operator ++(Complex complex)
+        {
+            if (complex is not null)
+            {
+                complex.Real++;
+                return complex;
+            }
+            return new Complex();
+        }
+
+        public static Complex operator --(Complex complex)
+        {
+            if (complex is not null)
+            {
+                complex.Real--;
+                return complex;
+            }
+            return new Complex();
+        }
+
         public override string ToString()
         {
             return $"{Real} + {Imag} i";
