@@ -1,10 +1,37 @@
-﻿namespace SessionOOP04
+﻿using System.Drawing;
+
+namespace SessionOOP04
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region abstraction
+            //abstraction : 
+            //abstract : C# kewword [class - methods - properties ]
+            //abstract class
+            //abstract method 
+            //abstract property 
+
+            //2D shape 
+
+            //Shape shape = new Shape();
+            //Note : Can't Create Object From Abstract Class
+
+            //shape.GetArea();
+
+            //Rectangle rectangle = new Rectangle() ;
+
+            //rectangle.Perimeter = 12;
+
+            //Console.WriteLine(rectangle.Perimeter);
+
+            //Console.WriteLine(Rectangle.GetArea());
+
+            //Rectangle.Print(); 
+            #endregion
+
+
         }
     }
 }
