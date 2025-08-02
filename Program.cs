@@ -162,6 +162,10 @@ namespace SessionOOP04
             //Console.WriteLine(Utilities.PI); 
             #endregion
 
+            #region Sealed
+            //Sealed : C# Keyword [class - Method - Property] 
+            #endregion
+
 
 
         }
