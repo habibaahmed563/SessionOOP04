@@ -3,6 +3,7 @@ using SessionOOP04.Mapping;
 using SessionOOP04.Operator_Overloading;
 using SessionOOP04.Static;
 using System.Drawing;
+using SessionOOP04.Partial;
 
 namespace SessionOOP04
 {
@@ -166,7 +167,12 @@ namespace SessionOOP04
             //Sealed : C# Keyword [class - Method - Property] 
             #endregion
 
+            #region Partial 
 
+            //Partial 
+
+            //Employee employee = new Employee(); 
+            #endregion
 
         }
     }
