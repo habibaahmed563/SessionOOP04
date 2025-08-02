@@ -103,6 +103,21 @@ namespace SessionOOP04.Operator_Overloading
             return left.Real != right.Real || left.Imag != right.Imag;
         }
 
+        //User-Defined Casting Operator 
+        //Complex --> String 
+        //Function : Public - static 
+
+        //Implicit - Explicit
+        public static explicit operator string (Complex complex)
+        {
+            return complex.ToString();
+        }
+
+        public static implicit operator int(Complex complex)
+        {
+            return 1234;
+        }
+
         public override string ToString()
         {
             return $"{Real} + {Imag} i";
