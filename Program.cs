@@ -1,5 +1,7 @@
-﻿using SessionOOP04.Mapping;
+﻿using SessionOOP04.Static;
+using SessionOOP04.Mapping;
 using SessionOOP04.Operator_Overloading;
+using SessionOOP04.Static;
 using System.Drawing;
 
 namespace SessionOOP04
@@ -134,6 +136,31 @@ namespace SessionOOP04
             //Automapper : Mapping Automatic  
             #endregion
 
+            #region static
+            //Static : C# Keyword [class - method - property - constrictor - attributes]
+            //static class
+            //static method
+            //static property 
+            //static constructor 
+            //static attribute
+
+            Utilities U01 = new Utilities();
+            Utilities U02 = new Utilities();
+            Utilities U03 = new Utilities();
+
+            //Console.WriteLine(U01.CmToInch(254));
+            //Console.WriteLine(U02.CmToInch(254));
+            //Console.WriteLine(U03.CmToInch(254));
+
+            //Console.WriteLine(Utilities.CmToInch(254));
+            //Console.WriteLine(Utilities.CmToInch(254));
+            //Console.WriteLine(Utilities.CmToInch(254));
+
+
+            //Console.WriteLine(Utilities.PI);
+            //Console.WriteLine(Utilities.PI);
+            //Console.WriteLine(Utilities.PI); 
+            #endregion
 
 
 
