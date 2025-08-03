@@ -1,4 +1,5 @@
 ﻿using SessionOOP04.First_Project;
+using SessionOOP04.Maths;
 
 namespace SessionOOP04
 {
@@ -37,6 +38,19 @@ namespace SessionOOP04
             Console.WriteLine(D3.ToString());
 
             Console.WriteLine($"{D1 > D2}");
+
+
+            //Seconnd Project 
+
+            int num1 = 5;
+            int num2 = 10;
+
+            Console.WriteLine($"Add:{Maths.Maths.Add(num1, num2)}");
+            Console.WriteLine($"Subtract:{Maths.Maths.Subtract(num1, num2)}");
+            Console.WriteLine($"multiply:{Maths.Maths.multiply(num1, num2)}");
+            Console.WriteLine($"Divide:{Maths.Maths.Divide(num1, num2)}");
+            Console.WriteLine($"modulo:{Maths.Maths.modulo(num1, num2)}");
+
 
         }
     }
